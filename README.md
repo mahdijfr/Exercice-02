@@ -1,18 +1,17 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# Exercice-02
+A simple restaurant management script (continuing our path on OOC concept).
+###########
+So this program containts 5 classes: 
+  Address: 
+    This class has 3 attributes _longtitude_ _latitude_ _writen address_ which defines a customers address and has a distance calculation method.
+  Customer:
+    This class creats a customer object which has an address assign to it and also other attributes as a unique id (customer number) and a name.
+  Item: 
+    This class objects are the food items in your invoice that are basically food objects with a count and description. 
+  Food:
+    This class contains an array list of food that everytime you create a food object in automatically adds it to menu.
+  Invoice:
+    This class is the invoice which contains objects of Item and also has methods for adding an removing items.
+  App:
+    just a sample of how to use the classes above.
+    
